@@ -145,30 +145,30 @@ object EDU.gatech.cc.is.simulation.GolfBallNoiseSim 0 0 0 0.02
 // numbers according to the order in which they are listed here.
 
 //======WEST TEAM======
-robot EDU.gatech.cc.is.abstractrobot.SocSmallSim df
+robot EDU.gatech.cc.is.abstractrobot.SocSmallSim AIKHomoG
 //------------your control system name goes here ^^^^^^^^
 	-1.2  0    0 xEAEA00 xFFFFFF 1
-robot EDU.gatech.cc.is.abstractrobot.SocSmallSim df
+robot EDU.gatech.cc.is.abstractrobot.SocSmallSim AIKHomoG
 //------------your control system name goes here ^^^^^^^^
 	-.5   0    0 xEAEA00 xFFFFFF 1
-robot EDU.gatech.cc.is.abstractrobot.SocSmallSim df
+robot EDU.gatech.cc.is.abstractrobot.SocSmallSim AIKHomoG
 //------------your control system name goes here ^^^^^^^^
 	-.15  .5   0 xEAEA00 xFFFFFF 1
-robot EDU.gatech.cc.is.abstractrobot.SocSmallSim df
+robot EDU.gatech.cc.is.abstractrobot.SocSmallSim AIKHomoG
 //------------your control system name goes here ^^^^^^^^
 	-.15  0    0 xEAEA00 xFFFFFF 1
-robot EDU.gatech.cc.is.abstractrobot.SocSmallSim df
+robot EDU.gatech.cc.is.abstractrobot.SocSmallSim AIKHomoG
 //------------your control system name goes here ^^^^^^^^
 	-.15  -.5  0 xEAEA00 xFFFFFF 1
 
 //======EAST TEAM======
-robot EDU.gatech.cc.is.abstractrobot.SocSmallSim fd
+robot EDU.gatech.cc.is.abstractrobot.SocSmallSim BasicTeam
 	 1.2  0    0 xFF0000 x0000FF 2
-robot EDU.gatech.cc.is.abstractrobot.SocSmallSim fd
+robot EDU.gatech.cc.is.abstractrobot.SocSmallSim BasicTeam
 	 .5   0    0 xFF0000 x0000FF 2
-robot EDU.gatech.cc.is.abstractrobot.SocSmallSim fd
+robot EDU.gatech.cc.is.abstractrobot.SocSmallSim BasicTeam
 	 .15  .5   0 xFF0000 x0000FF 2
-robot EDU.gatech.cc.is.abstractrobot.SocSmallSim fd
+robot EDU.gatech.cc.is.abstractrobot.SocSmallSim BasicTeam
 	 .15  0    0 xFF0000 x0000FF 2
-robot EDU.gatech.cc.is.abstractrobot.SocSmallSim fd
+robot EDU.gatech.cc.is.abstractrobot.SocSmallSim BasicTeam
 	 .15  -.5  0 xFF0000 x0000FF 2
