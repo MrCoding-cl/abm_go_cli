@@ -36,18 +36,10 @@ func CreateFile(data string) {
 	fmt.Println("log partido creado")
 }
 
-// extract number from string using regex return array of numbers [1,2]
 func ExtractNumber(text string) []string {
 	re := regexp.MustCompile(`(\d+)\s(\d+)`)
-
-	//match := re.FindStringSubmatch(text)
-	//println("text:", text)
-
-	//fmt.Println(re.FindAllString(text, -1))
 	match := re.FindAllString(text, -1)
-	//save the two last value in array
 	goals := match[len(match)-1:]
-	//print("goals:", xd[0])
 
 	var numbers []string
 	for _, v := range goals {
